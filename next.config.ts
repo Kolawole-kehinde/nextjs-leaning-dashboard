@@ -1,10 +1,8 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  //  experimental: {
-  //   ppr: 'incremental'
-  // }
+// next.config.js
+const nextConfig = {
+  experimental: {
+    turbo: false, 
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
